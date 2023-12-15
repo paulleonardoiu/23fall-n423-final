@@ -8,7 +8,7 @@ export default function DogImage({id, src, children, onClick}){
 
     return(
         <Grid.Column>
-            <Image src='https://images.dog.ceo/breeds/poodle-miniature/n02113712_3303.jpg'/>
+            <Image src={src}/>
         </Grid.Column>
     )
 }
