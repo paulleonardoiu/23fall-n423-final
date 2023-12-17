@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }) {
   const [dogSearch, setDogSearch] = React.useState('');
 
   function updateSearch(e, {value}) {
-    setDogSearch(value);
+    setDogSearch(value.toLowerCase());
   }
 
   return (

@@ -10,8 +10,17 @@
 }
 
 .container{
-  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 50%;
+  width: 50%;
+  /* background-color: white; */
+
+}
+
+.header{
+  text-transform: capitalize;
 }
 
 .center{
@@ -21,6 +30,44 @@
   background-color: blue;
 }
 
+.dogContainer{
+  /* height: 50%; */
+  /* width: 50%; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* background-image: url('/dog-bg.jpg'); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+}
+
 .dogGrid{
+  background-color: rgba(255,255,255,1);
+  border-radius: 15px;
+  width: 75%;
+  height: 75%;
+  padding: 20px;
+}
+
+.dogBreed{
+  padding: 15px;
+  font-size: 20px;
+  background-color: white;
+}
+
+.dogBreed::first-letter{
+  text-transform: uppercase;
+}
+
+.dogImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  object-fit: contain; 
+  /* padding: 20px; */
+}
+
+.row{
   background-color: white;
 }
