@@ -29,6 +29,9 @@ export default function App({ Component, pageProps }) {
             Search
           </Button>
         </Menu.Item>
+        <Menu.Item>
+          <h3>Search for a dog breed!</h3>
+        </Menu.Item>
       </Menu>
       <Component {...pageProps}/>
     </AppProvider>
